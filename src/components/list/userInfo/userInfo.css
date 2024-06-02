@@ -1,0 +1,44 @@
+.userInfo{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+
+    img{
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+
+    .logout-button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+      }
+      
+      .logout-icon {
+        width: 24px; /* Adjust size as needed */
+        height: 24px; /* Adjust size as needed */
+        margin-right: 8px; /* Adjust spacing as needed */
+      }
+}
